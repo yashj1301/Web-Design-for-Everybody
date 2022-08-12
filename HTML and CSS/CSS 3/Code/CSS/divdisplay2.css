@@ -1,0 +1,17 @@
+div {
+        width:30%;
+        background:#00ffff;
+        height:400px;
+        display: inline-block;
+}
+
+h2 { clear:both;
+    }
+
+p {
+        width:30%;
+        background:#00ffff;
+        height:400px;
+        display: inline-block;
+        overflow:auto;
+}

@@ -1,0 +1,28 @@
+div {
+    Color: #000000;
+    Background: #2db34a;
+    Line-height: 30px;
+    Text-align: center;
+    Width: 250px;
+    Height: auto;
+    Border-radius: 6px;
+    Transition-property: color, width, background, border-radius;
+    Transition-duration: 0.5s;
+    Transition-timing-function: linear;
+    Transition-delay: 0.5s;
+    padding:1%;
+    margin: 0 auto;
+
+}
+
+body {
+        margin: 2%;
+}
+
+div:hover {
+    Color: #ffffff;
+    Width:350px;
+    Background: #2d31b3;
+    Border-radius:50%;
+
+}

@@ -1,0 +1,47 @@
+* {
+    font-size:1.3rem;
+}
+
+a { 
+    text-decoration: none;
+    display:inline-block;
+    width:15%;
+    padding:0.5%;
+    margin:0.5%;
+}
+
+
+a[href^="https://www.iit"] {
+                 border-top:2px solid green;
+                 border-bottom:2px solid green;
+                 background-color:azure;
+                 color:green;
+}
+
+a[href$='.org'] {
+                 border-top:2px solid #5C4033;
+                 border-bottom:2px solid #5C4033;
+                 background-color:#FFFFE0;
+                 color:#5c4033;
+}
+
+a[href*='isro'] { 
+                 border-top:2px solid #343434;
+                 border-bottom:2px solid #343434;
+                 background-color:#E5E4E2;
+                 color:#343434;
+}
+
+a[href$='.net'] {
+                 border-top:2px solid #000080;
+                 border-bottom:2px solid #000080;
+                 background-color:#ccccff;
+                 color:#000080;
+}
+
+a[href$='.edu'] {
+                 border-top:2px solid #a50021;
+                 border-bottom:2px solid #a50021;
+                 background-color:#f4c2c2;
+                 color:#a50021;
+}

@@ -1,0 +1,27 @@
+p { 
+    background: #b3b3b3;
+    text-align: justify;
+    width:50%;
+    padding:0.8% 1.1%;
+    font-size:1.5em;
+}
+
+a {
+    display: inline-block;
+    border:5px solid green;
+    background:#00ff00;
+    padding:0.5%;
+    margin:10px 0px;
+    font-family: bahnschrift,serif;
+    text-align:center;
+    width:auto;
+    text-decoration:none;
+}
+
+body {
+        background: #888888;
+}
+
+button {
+        font-size:1em;
+}

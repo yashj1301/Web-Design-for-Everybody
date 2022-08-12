@@ -1,0 +1,16 @@
+div {
+        width:30%;
+        background:#00ffff;
+        display: inline-block;
+        float:left;
+}
+
+h2 { clear:both;
+     margin-top:2%;
+     padding-top:2%;
+}
+p {
+    width:30%;
+    background: #00ffff;
+    display:table-cell;
+}

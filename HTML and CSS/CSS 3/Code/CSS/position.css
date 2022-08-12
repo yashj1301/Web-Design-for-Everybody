@@ -1,0 +1,40 @@
+body {
+        margin:1.5%;
+        padding: 1%;;
+        width: 30%;;
+}
+
+div {
+        padding:1%;
+        background-color: lightgoldenrodyellow;
+}
+
+#static {
+        position: static;
+        left: 100px;
+        top:500px;
+        background-color: beige;
+}
+
+#relative {
+        position:relative;
+        background-color: greenyellow;
+        left:40px;
+}
+
+#absolute1 {
+        position: absolute;
+        top:50%;
+        background-color: antiquewhite;
+}
+
+#absolute2 {
+    position: absolute;
+        top:50%;
+        background-color: rgb(225, 209, 188);
+}
+
+#fixed { 
+        position: fixed;
+        background-color: gainsboro;
+}

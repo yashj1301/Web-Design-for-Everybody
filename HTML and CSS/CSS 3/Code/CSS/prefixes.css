@@ -1,0 +1,27 @@
+section {
+    
+    background: #f0ffff;
+    text-align: justify;
+    padding:2%;
+    
+    column-count:3;
+    -webkit-column-count:3;
+    -o-column-count:4; /* 4 columns will be displayed on Opera*/
+    -ms-column-count:3;
+    
+    column-gap:2%;
+    -webkit-column-gap:2%;
+    -o-column-gap:1%; /* 4 columns will be displayed on Opera*/
+    -ms-column-gap:2%;
+    
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+    
+    background:linear-gradient(100deg,#00b7ea,#f0ffff);
+    background:-webkit-linear-gradient(100deg,#00b7ea,#f0ffff);
+    background:-ms-linear-gradient(150deg,#00b7ea,#f0ffff);
+    background:-o-linear-gradient(120deg,#00b7ea,#f0ffff); /*gradient will look different on opera*/
+    
+}

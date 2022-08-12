@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Adjacent Sibling Selectors </title>
+    <link rel="stylesheet" href="../CSS/adjacent-siblings.css">
+</head>
+<body>
+    <h1> Adjacent Sibling Selectors in CSS</h1>
+    <div>
+			<p> The list underneath this paragraph &lt;p&gt; tag will be modified, since the two tags &lt;p&gt; and &lt;ol&gt; are adjacent siblings. </p>
+			<ol>
+				<li> ------ </li>   
+				<li> -------</li>
+			</ol>
+			<p> The list underneath this &lt;p&gt; tag won't be modified since they have an anchor &lt;a&gt; tag between them, which makes them non-adjacent siblings.</p>
+			<a href="adjacent-siblings.html"> Link </a>
+			<ol> 
+				<li> ------ </li>     
+				<li> -------</li>
+			</ol>
+    </div>
+    <p> The list underneath this &lt;p&gt; tag won't be modified since they are not the descendants of the &lt;div&gt; tag. </p>
+    <ol>
+        <li> ------ </li>   
+        <li> -------</li>
+    </ol>
+			
+</body>
+</html>

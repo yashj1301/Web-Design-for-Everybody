@@ -1,0 +1,15 @@
+div a {
+        text-decoration: none;
+        color:green;
+        font-style: oblique;
+        background-color: azure;
+}
+
+div a:hover {
+        border-bottom: 2px solid green;
+}
+
+body {
+        margin:2%;
+        font-size:120%;
+}

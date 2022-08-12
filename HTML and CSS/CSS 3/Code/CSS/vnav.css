@@ -1,0 +1,37 @@
+nav {
+        display:inline-block;
+        Float:left;
+        width:15%;
+        height:100vh;
+        background:azure;
+}
+
+nav a {
+        display:block;
+        margin:5% auto;
+        box-sizing:border-box;
+        text-align:center;
+        height:2em;
+        font-size:160%;
+        text-decoration:none;
+        color:#000080;
+        padding:3%;
+        background:url("../Images/s-logo.png") no-repeat;
+        background-size:20% 80%;
+        background-position:5% 30%;
+        border-bottom: 5px double #000080;
+}
+
+nav a:hover, a:focus {
+        background:#00B5E2;
+        color:#ffffff;
+        border-top:5px double #ffffff;
+        border-bottom: 5px double #ffffff;
+       
+}
+
+section {
+        display:inline-block;
+        width:83%;
+        float:right;
+}

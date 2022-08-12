@@ -1,0 +1,125 @@
+body {
+        margin:1%;
+        padding:1%;
+}
+
+header {
+        background: #b3b3b3 url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+        background-size:cover;
+        text-transform:uppercase;
+        text-align: center;
+        padding:1%;
+}
+
+h1 {
+        display: inline-block;
+        color:#ffffff;
+        font-size:200%;
+        margin:1% auto 0.5% auto;
+}
+
+h2 {
+        margin-top:1%;
+}
+
+nav a {
+        display:inline-block;
+        width:15%;
+        margin:2% 0%;
+        margin-right:6%;
+        margin-top:0.5%;
+        padding:1.2% 1%;
+        border-radius:5px;
+        text-transform:capitalize;
+        text-decoration: none;
+        background-color:rgba(255,255,255,0.3);
+        color:#000000;
+        font-weight: bold;
+}
+
+nav a.active {
+            background:#ffffff;
+            color:#000080;
+}
+
+nav a:hover {
+            background:rgba(255,255,255,0.7); /* giving a highlighting effect to the links*/
+            color:#006400;
+            font-weight:bolder;
+}
+
+.left {
+        display:inline-block;
+        clear:both;
+        width:12%;
+        background-color:#808000;
+        padding:2%;
+        height:35rem;
+}
+
+.left img{
+        display:inline-block;
+        width:100%;
+        height:auto;
+        margin: 0 auto; /* for center alignment*/
+        margin-top:2%;
+        margin-bottom:15%; /* space between images*/
+        border:2px solid #000000;
+}
+
+.left img:hover {
+                    opacity: 0.6; /*giving hovering effect to images as well*/
+}
+
+.right {
+        display: inline-block;
+        float:right;
+        margin-left:0;
+        padding-right:2%;
+        box-sizing:border-box;
+        width:83%;
+}
+
+table {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            font-family:arial,'times new roman',serif,sans-serif;
+            font-size:0.8em;
+            font-weight: bolder;
+            
+    }
+    
+    th,td {
+            border: 0.5px solid;
+            padding:1.5%;    
+    }   
+
+/*rgb(85,107,47)*/
+
+th {
+        background:-webkit-linear-gradient(90deg,#7ca831,#556b2f);
+        color:white;
+        border-color:greenyellow;
+        border-radius: 4px 4px 0px 0px;
+        border-bottom:3px solid greenyellow;
+}
+
+td {
+        background-color: #99ffbb;
+        opacity:0.7;
+        color:#333333;
+        border-color:#ffffff;
+        border-radius:2px;
+}
+
+tr:hover {
+        background-color: #99ffbb;
+        opacity:1;
+}
+
+th:first-of-type, td:first-of-type {
+        text-align: justify;
+}
+
+

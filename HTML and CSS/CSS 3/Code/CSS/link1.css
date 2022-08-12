@@ -1,0 +1,31 @@
+a {     
+        margin:auto 1%;
+        text-decoration: none;
+        padding:0.8% 1%;
+        color:black;
+}
+
+a:link {
+        border-top:0px;
+        border-bottom:2px solid purple;
+        color:darkgoldenrod;
+}
+
+a:visited {
+        border-bottom:2px solid green;
+        color:crimson;
+}
+    
+a:hover,a:focus {
+        border-top:2px solid blue;
+        border-bottom: 2px solid blue;
+        color:red;
+}
+
+a:active {
+        border-top:2px solid black;
+        border-bottom:2px solid black;
+        color:black;
+        
+}
+

@@ -1,0 +1,16 @@
+div p + ol {
+            background: azure;
+            color:green;
+            width:65%;
+}
+
+div {
+        background-color:antiquewhite;
+        margin:2%;
+        padding:1%;
+}
+
+body {
+        font-size: 120%;
+        margin:2%;
+}

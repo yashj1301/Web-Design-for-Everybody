@@ -1,0 +1,31 @@
+ol {
+    list-style-type:georgian;
+    list-style-position: inside;
+}
+
+
+ul {
+    list-style-type: square;
+    list-style-position:outside;
+    list-style: url(../Images/check.png);
+}
+
+h2 {
+    margin-bottom:2.5%;
+}
+
+
+p {
+    width:70%;
+    margin-bottom: 0%;
+    font-size:125%;
+}
+
+ol, ul {
+        display: inline-block;
+        width:25%;
+        margin-top:0;
+        float:left;
+        font-size:125%;
+}
+

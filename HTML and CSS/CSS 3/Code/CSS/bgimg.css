@@ -1,0 +1,50 @@
+body {
+        background:#b3b3b3;
+        font-size:120%;
+        margin:2%;
+}
+
+div {
+        background: url('../Images/space.jpg');
+        color:#ffffff;
+        padding:1.5%;
+        font-size:200%;
+        text-align:center;
+        background-size: 50% 50%;
+        border:2px solid;
+        background-color: #666666;
+        margin-bottom: 2%;
+}
+
+p { 
+        padding:1%;
+        margin:0 auto;
+        
+}
+
+#pos {
+        background-position:20% 50%;
+        background-size:20% 90%;
+        background-repeat: no-repeat;
+        border:2px solid;
+        margin: 0 auto;
+        
+}
+
+#norep { 
+        background-repeat: no-repeat;
+        background-size:50% 100%;
+        opacity:1;
+       }
+
+#xrep { background-repeat: repeat-x; 
+        background-size:30% 100%;
+        margin-top:2%;
+      }
+
+#yrep { 
+        background-repeat: repeat-y; 
+        background-size:100% 30%;
+      }
+
+
