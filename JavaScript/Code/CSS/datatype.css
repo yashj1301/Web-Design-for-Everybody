@@ -1,0 +1,19 @@
+body{
+        width:70%;
+        font-size: 150%;
+        margin-left:1.5%;
+}
+
+span{
+        display: inline-block;
+        border:2px solid #000080;
+        background-color: aliceblue;
+        padding: 2%
+}
+
+code{ color:green; }
+
+img {
+        width: 45%;
+        border: 1px solid #d3d3d3;
+}
